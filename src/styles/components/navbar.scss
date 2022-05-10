@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 6rem;
+  // background-color: red;
+
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    //    background-color: blue;
+
+    .pages-link {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-left: 3rem;
+
+      a {
+        color: $Grayish-Violet;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+      }
+    }
+  }
+  .session-container {
+    display: flex;
+    // background-color: black;
+    gap: 1.5rem;
+
+    .login {
+      width: 5rem;
+      height: 2rem;
+      background-color: transparent;
+      color: $Grayish-Violet;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+    }
+    .signup {
+      width: 5rem;
+      height: 2rem;
+      background-color: $Cyan;
+      color: white;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+    }
+    :hover {
+      cursor: pointer;
+    }
+  }
+}
