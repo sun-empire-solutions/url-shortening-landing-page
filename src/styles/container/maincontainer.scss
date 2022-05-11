@@ -17,7 +17,7 @@
       .title {
         margin-top: 5rem;
         h1 {
-          font-size: 5.5vw;
+          font-size: calc(3rem + 1.3vw + 1.3vh);
           color: $Dark-Violet;
           font-weight: bolder;
         }
@@ -26,12 +26,12 @@
         margin-top: 0.5rem;
         p {
           color: $Grayish-Violet;
-          font-size: 1.7vw;
+          font-size: calc(0.8rem + 0.5vh + 0.5vw);
         }
       }
       button {
-        height: 7.5vh;
-        width: 12vw;
+        height: 2.8rem;
+        width: calc(8rem + 1vh + 1vw);
         border-radius: 30px;
         background-color: $Cyan;
         color: white;
@@ -48,15 +48,8 @@
     }
     .right-container {
       display: flex;
-      position: relative;
       flex: 1;
       overflow: hidden;
-      height: 550px;
-
-      img {
-        display: flex;
-        position: absolute;
-      }
     }
   }
 }
