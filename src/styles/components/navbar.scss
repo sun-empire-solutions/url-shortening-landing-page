@@ -3,20 +3,19 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 6rem;
-  // background-color: red;
+  padding: 3rem 8rem;
 
   .navbar-container {
     display: flex;
     align-items: center;
     height: 100%;
-    //    background-color: blue;
 
     .pages-link {
       display: flex;
       align-items: center;
       gap: 1.5rem;
       margin-left: 3rem;
+      margin-bottom: 0.5rem;
 
       a {
         color: $Grayish-Violet;
@@ -28,8 +27,8 @@
   }
   .session-container {
     display: flex;
-    // background-color: black;
     gap: 1.5rem;
+    margin-bottom: 0.5rem;
 
     .login {
       width: 5rem;
@@ -43,7 +42,7 @@
       outline: none;
     }
     .signup {
-      width: 5rem;
+      width: 5.5rem;
       height: 2rem;
       background-color: $Cyan;
       color: white;

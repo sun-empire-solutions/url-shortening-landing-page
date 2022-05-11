@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .info-container {
+    display: flex;
+    margin-top: 1.5rem;
+    width: 100%;
+
+    .left-container {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      flex: 1;
+      padding-left: 8rem;
+
+      .title {
+        margin-top: 5rem;
+        h1 {
+          font-size: 5.5vw;
+          color: $Dark-Violet;
+          font-weight: bolder;
+        }
+      }
+      .infoTextContainer {
+        margin-top: 0.5rem;
+        p {
+          color: $Grayish-Violet;
+          font-size: 1.7vw;
+        }
+      }
+      button {
+        height: 7.5vh;
+        width: 12vw;
+        border-radius: 30px;
+        background-color: $Cyan;
+        color: white;
+        font-weight: 700;
+        font-size: 1.3vw;
+        margin-top: 3rem;
+        border: none;
+        outline: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .right-container {
+      display: flex;
+      position: relative;
+      flex: 1;
+      overflow: hidden;
+      height: 550px;
+
+      img {
+        display: flex;
+        position: absolute;
+      }
+    }
+  }
+}
