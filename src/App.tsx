@@ -1,6 +1,6 @@
-import { NavBar } from "./components/NavBar";
+import { MainContainer } from "./container/MainContainer";
 
 const App = () => {
-  return <NavBar />;
+  return <MainContainer />;
 };
 export { App };

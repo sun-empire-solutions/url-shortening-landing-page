@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .info-container {
+    display: flex;
+    margin-top: 1.5rem;
+    width: 100%;
+
+    .left-container {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      flex: 1;
+      padding-left: 8rem;
+
+      .title {
+        margin-top: 5rem;
+        h1 {
+          font-size: calc(3rem + 1.3vw + 1.3vh);
+          color: $Dark-Violet;
+          font-weight: bolder;
+        }
+      }
+      .infoTextContainer {
+        margin-top: 0.5rem;
+        p {
+          color: $Grayish-Violet;
+          font-size: calc(0.8rem + 0.5vh + 0.5vw);
+        }
+      }
+      button {
+        height: 2.8rem;
+        width: calc(8rem + 1vh + 1vw);
+        border-radius: 30px;
+        background-color: $Cyan;
+        color: white;
+        font-weight: 700;
+        font-size: 1.3vw;
+        margin-top: 3rem;
+        border: none;
+        outline: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .right-container {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+  }
+}
