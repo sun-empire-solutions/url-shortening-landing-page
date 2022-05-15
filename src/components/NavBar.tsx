@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className="pages-link">
           <a href="#">Features</a>
           <a href="#">Pricing</a>
-          <a href="#">Resourses</a>
+          <a href="#">Resources</a>
         </div>
       </div>
       <div className="session-container">
