@@ -14,7 +14,7 @@ const MainContainer = () => {
           <div className="infoTextContainer">
             <p>
               Build your brand's recognition and get detailed <br />
-              insights on how your links are performing
+              insights on how your links are performing.
             </p>
           </div>
           <button type="button">Get Started</button>
